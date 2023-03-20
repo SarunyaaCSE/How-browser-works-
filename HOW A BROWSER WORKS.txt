@@ -1,0 +1,29 @@
+HOW A BROWSER WORKS
+->Anything that can get resources on the web and display is called as a client browser or a web client browser.
+->We need to tell a browser to go get something out on the web with an URL.
+->URL stands for Uniform Resource Locator.
+->Generic form of URL:scheme://domain:port/path?query_string#fragment_id
+->Scheme:http,https,ftp,...
+->Domain:Name of the server
+->port(default:80)
+->path to resourse with name and extension
+->query id which is optional
+->fragment id which is optional
+->The current URL displays at the top of the browser.You can type a URL and have the browser go get the resource
+->URL's also appear in HTML tags for resources used in page and hyperlinks.
+->First thing a browser is going to do is issue a hypertext protocol command called get.
+->This command will go across the network in search of the machine that is given in the domain name and that machine will receive that request.
+->The machine will take the path part and check in the database whether the content askeed by the web browser is present or not
+->If the resource is found it returns to the browser and the browser accepts the file and starts to process it.
+->The browser parses the HTML file.
+->Parsing means it goes and gets the file and breaks it up into pieces and figures out what to do with the pieces.
+->HTML contains text content,links to other resources and structure of the web page.
+->Using the URL's in the web page it goes and fetches the resouces like images,videos,etc..
+->Those resources look for style sheets or css in the page for appearance.
+->Finally the HTML page looks for javascript in the page for behavior.
+->After assembling,the browser stores them into document and stores them into an internal data structure.
+->The main scope is to render the document.
+->It also publishes the document as Document Object Model.
+->Javascripts run and use Document Object Model.
+->In the end,it all comes together as a smooth,fast and interactive user experience.
+
